@@ -51,9 +51,22 @@ test('isHexAlpha', () => {
     expect(functions.isHexColor('#AAAAAA')).toBe(true);
 });
 test('isHexFalse', () => {
-    expect(functions.isHexColor('111111')).toBe(false);
+    expect(functions.isHexColor('JJJJJJ')).toBe(false);
 });
 test('isHexFalse2', () => {
     expect(functions.isHexColor('#1111111')).toBe(false);
+});
+
+test('isStrongPassword', () => {
+    expect(functions.isStrongPassword('al4d1kmalskdm23')).toBe(true);
+});
+test('isStrongPassword2', () => {
+    expect(functions.isStrongPassword('hs23sa1')).toBe(true);
+});
+test('isStrongPasswordFalse', () => {
+    expect(functions.isStrongPassword('1111111111')).toBe(false);
+});
+test('isStrongPasswordFalse2', () => {
+    expect(functions.isStrongPassword('1')).toBe(false);
 });
 // TODO - Part 2
