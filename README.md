@@ -1,5 +1,5 @@
 # Lab 8 - Starter
-<<<<<<< HEAD
+
 1. Within a Github action that runs whenever code is pushed, because it prevents from building onto
 a corrupted code, which means that if the code pushed is not working correctly and has issues that
 tests won't allow to pass, without constant automated checks, it would be hard to acknowledge the
@@ -14,4 +14,4 @@ and constant fixes are always more fitting than big giant fixes to prevent big m
 more than 80 characters or test to see if it is correctly catching up with character count. The test is possible
 unlike question number 3.
 =======
->>>>>>> c4653dc9492f229bd8cd7757b7c8f98ae9df555c
+
